@@ -1,0 +1,193 @@
+h1{
+color: #252B42;
+font-size: 40px;
+font-family:'Fredoka', sans-serif;
+}
+p{
+  font-size: 26px;
+  font-family:'Fredoka', sans-serif;
+}
+
+section{
+  padding: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+} 
+
+/* NAVIGATION ELIZABETH*/
+.navbar {
+  top: 0%;
+  cursor: pointer;
+}
+header {
+  position: sticky;
+  top: 0%;
+  padding: 10px;
+}
+header ul {
+  position: sticky;
+  top: 0%;
+  float: right;
+  color: #737373;
+}
+header li {
+  position: sticky;
+  top: 0%;
+  display: inline;
+  padding: 100px;
+  color: #5E6678;
+}
+.header img {
+  display: inline-flex;
+  justify-content: left;
+  align-items: center;
+  max-width: 10px;
+  max-height: 10px;
+  padding: 5px;
+}
+
+/* CAROUSEL*/
+.carousel-inner{
+  width: 100%;
+  height: 5%;
+}
+.carousel-control-prev, .carousel-control-next{
+    filter: invert(100%);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  width: 50px;
+  height: 50px;
+}
+   /* MISSION*/
+.container {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  padding-bottom: 90px;
+}
+
+.imagemission img{
+  flex-basis: 90%;
+  width: 200%;
+  border-radius: 30px;
+}
+
+.textmission {
+  font-size: 20px;
+  padding-left: 200px;
+}
+
+/* FEATURED ARTICLES*/
+.card-deck{
+  cursor: pointer;
+}
+.card-container {
+  overflow: hidden;
+}
+.card {
+    color: #373F41;
+    min-height: 100%;
+    width: 100%;
+  }
+.card-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family:'Fredoka', sans-serif;
+  }
+
+/* BANNER PARTNERSHIP ELIZABETH*/
+  .subscribe {
+    background-color: #EBE1DA;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B5260;
+    color: white;
+    font-size: 20px;
+    padding: 4px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn-primary:hover {
+    background-color: #B45E15;
+  }
+
+  /* FOOTER */
+  footer{
+    background-color: #5E6678;
+    padding: 10px;
+    font-family: 'Fredoka', sans-serif;
+  }
+  footer img{
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+  footer ul{
+    list-style: none;
+    padding-left: 0px;
+  }
+  footer li{
+    display: inline-block;
+    padding: 0px 30px;
+    color: #FFF8EF;
+  }  
+  hr {
+    border: 9;
+    border-top: 1px solid #FFF8EF;
+    width: 100%;
+    margin-left: 0;
+      }
+footer h4{
+    color: #FFF8EF;
+    padding: 0px 30px;
+      }
+footer p{
+    color: #FFF8EF;
+    padding: 0px 30px;
+    padding-left: 90px;
+      }
+footer i{
+    padding: 0px 10px;
+    cursor: pointer;
+    padding-left: 10px;
+      }
+
+ footer p{
+        font-size: 20px;}
+  
+        footer h4{
+          font-size: 26px;
+          padding-left: 90px;
+        }
+      
+.row {
+    display: flex;
+    grid-template-columns:(1fr, 1fr);
+    grid-gap: 5px;
+    }
+
+  /* Phone Query HAVE THE SAME CODE ON ALL PAGES */
+  @media only screen and (max-width: 37.5em) {
+    div.card-image img {
+      width: 100%;
+      height: auto;
+    }
+    .card-image {
+       flex-direction: column;
+    }
+    .card {
+      width: 70%;
+      margin-top: 10px;
+    }
+  }
